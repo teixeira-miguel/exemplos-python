@@ -11,7 +11,7 @@ total_de_pessoas = int(input("Digite o número de pessoas:"))
 
 resultado = valor_individual(valor_total, total_de_pessoas)
 
-input("Pressione ENTER para continuar")
+input("Pressione ENTER para continuar...")
 
 os.system("cls")
 print(f"\nTotal da conta:R${valor_total}")
