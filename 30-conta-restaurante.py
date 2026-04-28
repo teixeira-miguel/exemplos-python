@@ -14,6 +14,6 @@ resultado = valor_individual(valor_total, total_de_pessoas)
 input("Pressione ENTER para continuar...")
 
 os.system("cls")
-print(f"\nTotal da conta:R${valor_total}")
+print(f"\nTotal da conta:R${valor_total:.2f}")
 print(f"Total de pessoas:{total_de_pessoas}")
-print(f"Valor total por pessoa:R${resultado}")
+print(f"Valor total por pessoa:R${resultado:.2f}")
